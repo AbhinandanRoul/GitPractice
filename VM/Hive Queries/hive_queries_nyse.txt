@@ -30,7 +30,7 @@ describe NYSEdividends;
 
 describe formatted NYSEdividends ;
 
-Load data inpath '/user/<your-login-id>/nyse/NYSE_dividends.tsv' overwrite into table nysedividends;
+Load data local inpath '/user/<your-login-id>/nyse/NYSE_dividends.tsv' overwrite into table nysedividends;
 -- In case you get any error messages in the above, open a duplicate session of Jigsaw lab and check if the file you gave in the command above exists of not or if there are any typos in the file name or directory name. You can do this bu giving the command below at $ prompt (Not at hive> prompt)
 -- $ hadoop fs -ls <path-from-the-above-command>
 
